@@ -138,6 +138,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5306125397848558337}
   - component: {fileID: 5306125397848558336}
+  - component: {fileID: 5782464397860132578}
   - component: {fileID: 5306125397848558339}
   m_Layer: 0
   m_Name: characters_knight
@@ -176,9 +177,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animator: {fileID: 5306125399016264628}
-  _audioSource: {fileID: 5306125397180018408}
   _animationsOnClick:
   - characters_knight_attack_1
+--- !u!114 &5782464397860132578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5306125397848558342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5605f611d64d1f14db70d8e7273ec153, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioSource: {fileID: 5306125397180018408}
   _audioClipsOnClick:
   - {fileID: 8300000, guid: a4f01a8c31509ee4e8b8e8ee20502b76, type: 3}
   - {fileID: 8300000, guid: 9b0226fb119799147b44a3b921ba587c, type: 3}
@@ -269,9 +282,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingLayerID: -1687701255
+  m_SortingLayer: 3
+  m_SortingOrder: 10
   m_Sprite: {fileID: -63201442, guid: b2bfcf5638c92274d87f894beab518b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
