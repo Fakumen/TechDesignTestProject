@@ -19,6 +19,10 @@ MonoBehaviour:
     m_Key: button_continue
     m_Metadata:
       m_Items: []
+  - m_Id: 94137286750208
+    m_Key: button_return
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
