@@ -1957,14 +1957,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1411495090}
     m_Modifications:
-    - target: {fileID: 2062202973067187786, guid: 6ccccf35fe801034abdc3b983851386a, type: 3}
-      propertyPath: m_Name
-      value: button_next_scene
-      objectReference: {fileID: 0}
-    - target: {fileID: 2062202973067187796, guid: 6ccccf35fe801034abdc3b983851386a, type: 3}
-      propertyPath: m_Interactable
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2062202974665129491, guid: 6ccccf35fe801034abdc3b983851386a, type: 3}
       propertyPath: m_Name
       value: canvas_ui
@@ -2360,6 +2352,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1992419248}
     m_Modifications:
+    - target: {fileID: 7677722575376747291, guid: ef49cda54231bcc4fb36a1290c5d12ae, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9771457
+      objectReference: {fileID: 0}
+    - target: {fileID: 7677722575376747291, guid: ef49cda54231bcc4fb36a1290c5d12ae, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7677722575376747291, guid: ef49cda54231bcc4fb36a1290c5d12ae, type: 3}
+      propertyPath: m_Color.r
+      value: 0.7783019
+      objectReference: {fileID: 0}
     - target: {fileID: 7677722576962323452, guid: ef49cda54231bcc4fb36a1290c5d12ae, type: 3}
       propertyPath: _button
       value: 
